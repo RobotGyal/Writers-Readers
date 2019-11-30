@@ -1,0 +1,13 @@
+body{
+    background-image: url(../pics/quiet.jpg);
+    background-size: cover;
+}
+
+.hero-background-img{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 500px;
+}
+
+.navbar{
+    height: 125px;
+}
