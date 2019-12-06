@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,6 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,36 +18,109 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand navbar-dark">
-        <a class="navbar-brand" href="#">Navbar on Landing Page</a>
+        <!-- <a class="navbar-brand" href="#">Navbar on Landing Page</a>
         <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#">Features</a>
         <a class="nav-item nav-link" href="#">Pricing</a>
-        </div>
+        </div> -->
     </nav>
 
 
     <!--HERO-->
-    <div class="jumbotron text-center hero-background-img">
+    <h1>Readers</h1>
+
+    <!--OPTIONS-->
+    <nav class="navbar navbar-expand navbar-dark" id="dropdown">
+        <a class="navbar-brand" href="#">Navbar on Landing Page</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+        </div>
+    </nav>
+
+
+    <!--3 cards-->
+    <div class="container">
         <div class="row">
-            <div class="col-6">
-                <h1>Readers</h1>
-                <!-- <p class="lead">A Fantastic Web Service!</p>
-                <a href="#" class="btn btn-primary">Onwards!</a> -->
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/fire.jpg" alt="Card image cap">
+                </div>
             </div>
-            <div class="align-self-center col-6">
-                    <h1>Writers</h1>
-                    <!-- <p class="lead">A Fantastic Web Service!</p>
-                    <a href="#" class="btn btn-primary">Onwards!</a> -->
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/chi.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/rose.jpg" alt="Card image cap">
+                </div>
             </div>
         </div>
+
+        <br><br><br>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/space.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/princess.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/knight.jpg" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+
+
+        <br><br><br>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/city.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/field.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="cards">
+                    <img class="card-img img-fluid" src="../pics/phone.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+        </div>
+
+
+
     </div>
+
+
+
 
     <!--FOOTER-->
     <div class="footer p-5 text-white">
-            &copy; 2019 Aleia Knight
-          </div>
+        &copy; 2019 Aleia Knight
+    </div>
 </body>
+
 </html>
-
-
