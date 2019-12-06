@@ -33,7 +33,25 @@ body{
 }
 
 .card{
-    width: 350px;
-    height: 500px;
+    width: 320px;
+    height: 470px;
     object-fit: cover;
 }
+
+.card-img:hover{
+    opacity: .4;
+}
+
+#card-text{
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#card-text:hover{
+    color: #fff;
+    visibility: visible;
+    opacity: 1;
+}
+
+
