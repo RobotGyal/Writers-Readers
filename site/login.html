@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="../pics/icon.png">
-    <title>Writer+Reader</title>
+    <title>Login</title>
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,22 +17,28 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand navbar-dark">
-
+        <h1>Readers</h1>
     </nav>
 
 
     <!--HERO-->
     <div class="jumbotron text-center hero-background-img">
         <div class="row">
-            <div class="col-6">
-                <br><br><br><br><br><br>
-                <h1>Readers</h1>
-                <a href="readers.html"><button type="button" class="btn btn-outline-light btn-sm">Enter</button></a>
-            </div>
-            <div class="align-self-center col-6">
-                <br><br><br><br><br><br>
-                <h1>Writers</h1>
-                <a  href="login.html"><button type="button" class="btn btn-outline-light btn-sm">Enter</button></a>
+            <div class="col">
+                <br><br><br>
+                <form action="/action_page.php">
+                    Username:<br>
+                    <input type="text" name="username" >
+                    <br><br>
+                    Password:<br>
+                    <input type="text" name="password">
+                    <br>
+                  </form> 
+                <br><a href="writers.html"><button type="button" class="btn btn-outline-light btn-sm">Enter</button></a><br><br>
+                <p>Create Account</p>
+                <p>Forgot Password</p>
+                <p>Trouble Signing In?</p>
+
             </div>
         </div>
     </div>

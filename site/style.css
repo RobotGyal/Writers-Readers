@@ -37,7 +37,7 @@ body{
     border-bottom: 6px double #f8d971ad;
 }
 
-.card{
+#cards{
     width: 320px;
     height: 470px;
     object-fit: cover;
@@ -66,4 +66,17 @@ h1{
 .nav-item{
     margin-right: 35px;
     margin-left: 35px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+#profile{
+    border: 6px double #f8d971ad;
+}
+
+
+#cards3{
+    align-self: center;
 }
